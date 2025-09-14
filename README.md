@@ -67,7 +67,7 @@ O pagamento é feito apenas pelo tempo e recursos que você realmente utiliza.
 
 ## 🏗️ Exemplo de Arquitetura - Delivery
 
-![Arquitetura de Delivery feita no draw.io](https://)
+![Arquitetura de Delivery feita no draw.io](images/aws_example_architecture.png)
 
 - EC2 App/API (x2): duas instâncias para alta disponibilidade rodando sua API e app web/mobile (Node, Python, etc.).
 - EBS (nos apps): volumes anexados para logs e temporários (uploads antes de irem ao S3, cache local, etc.).
